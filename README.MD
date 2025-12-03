@@ -8,3 +8,8 @@ to do all the challenges this year
 Just for learning purpouses, i'm mainly a node developer but i like to learn different languages 
 and paradigms
 
+## Some hints that helped me
+
+### Day 1 part 2
+ 
+ If the dial gets to 0 then turns left it does'n count as aditional turn.

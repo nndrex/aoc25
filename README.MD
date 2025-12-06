@@ -12,4 +12,4 @@ and paradigms
 
 ### Day 1 part 2
  
- If the dial gets to 0 then turns left it does'n count as aditional turn.
+ If the dial gets to 0 then left turn  does'n count as aditional turn.

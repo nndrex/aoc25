@@ -1,30 +1,5 @@
 import math
 
-# def evenInvalid(number: str):
-#     print(f"even to eval {number}")
-#     pattern = number[0]
-
-#     patternCounts = 0
-#     for index in range(1, len(number)):
-#         print(f"number{index}: {number[index]} , pattern[0]: {pattern[0]}")
-#         if number[index] == pattern[0]:
-#             break
-#         pattern += number[index]
-#     patternLength = len(pattern)
-#     print(f"pattern : {pattern}, patternLength: {patternLength}")
-#     if len(number) % patternLength != 0 or (len(number) - patternLength) == 0:
-#         return 0
-#     patternCounts = math.floor(len(number) / patternLength)
-#     print(f"pattern counts: {patternCounts}")
-#     for patternIndex in range(1, patternCounts):
-#         print("for loop")
-#         startRange = patternLength * patternIndex
-#         toEvalNumber = number[startRange : startRange + patternLength]
-#         if pattern != toEvalNumber:
-#             return 0
-#     # print(f"=============== invalid {number}==================")
-#     return int(number)
-
 
 def findDivisors(number: int):
     sqr = math.floor(math.sqrt(number))
